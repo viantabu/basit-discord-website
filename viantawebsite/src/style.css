@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/src/images/yazılım.jpg);
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  overflow: hidden;
+}
+.navbar {
+  display: flex;
+  margin: auto;
+  width: 99%;
+  padding: 32px 0;
+  align-items: center;
+  font-size: 25px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.logo {
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 10;
+  padding: 10;
+  align-items: center;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  margin: 30px;
+  padding: 30px;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 65px;
+}
+.content p {
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+button {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 35px;
+  border-bottom-color: #fff;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-top-color: #788ff5;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-right-color: rgb(103, 101, 124);
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-left-color: #3d5763;
+  border-left-width: 2px;
+  border-left-style: solid;
+  text-align: center;
+  margin: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+button:hover {
+  color: greenyellow;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 35px;
+  border-bottom-color: #fff;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-top-color: #788ff5;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-right-color: rgb(103, 101, 124);
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-left-color: #3d5763;
+  border-left-width: 2px;
+  border-left-style: solid;
+  text-align: center;
+  margin: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 2sn;
+  text-decoration: none;
+}
